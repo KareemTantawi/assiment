@@ -1,5 +1,5 @@
-import 'package:app_clopallmedie_dashboard/core/services/shared_prefrences/shared_pref/pref_keys.dart';
-import 'package:app_clopallmedie_dashboard/core/services/shared_prefrences/shared_pref/shared_pref.dart';
+import 'package:login_screen/core/services/shared_prefrences/shared_pref/pref_keys.dart';
+import 'package:login_screen/core/services/shared_prefrences/shared_pref/shared_pref.dart';
 
 class AppLogout {
   factory AppLogout() {

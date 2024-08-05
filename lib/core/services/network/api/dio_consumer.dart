@@ -1,8 +1,7 @@
-import 'package:app_clopallmedie_dashboard/core/services/network/api/api_consumer.dart';
-import 'package:app_clopallmedie_dashboard/core/services/network/api/api_endpoints.dart';
-import 'package:app_clopallmedie_dashboard/core/services/network/api/api_interceptors.dart';
-import 'package:app_clopallmedie_dashboard/core/services/network/error/exceptions.dart';
 import 'package:dio/dio.dart';
+import 'package:login_screen/core/services/network/api/api_consumer.dart';
+import 'package:login_screen/core/services/network/api/api_endpoints.dart';
+import 'package:login_screen/core/services/network/api/api_interceptors.dart';
 import 'package:login_screen/core/services/network/error/exceptions.dart';
 
 class DioConsumer extends ApiConsumer {

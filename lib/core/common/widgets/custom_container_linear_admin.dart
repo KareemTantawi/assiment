@@ -1,7 +1,6 @@
-import 'package:app_clopallmedie_dashboard/core/styles/colors/app_color.dart';
-import 'package:app_clopallmedie_dashboard/core/styles/colors/colors_dark.dart';
-
 import 'package:flutter/material.dart';
+import 'package:login_screen/core/styles/colors/app_color.dart';
+import 'package:login_screen/core/styles/colors/colors_dark.dart';
 
 class CustomContainerLinearAdmin extends StatelessWidget {
   const CustomContainerLinearAdmin({

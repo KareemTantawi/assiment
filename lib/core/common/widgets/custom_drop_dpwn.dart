@@ -1,11 +1,10 @@
-import 'package:app_clopallmedie_dashboard/core/common/widgets/text_app.dart';
-import 'package:app_clopallmedie_dashboard/core/extension/context_extension.dart';
-import 'package:app_clopallmedie_dashboard/core/styles/colors/app_color.dart';
-import 'package:app_clopallmedie_dashboard/core/styles/fonts/font_family_helper.dart';
-import 'package:app_clopallmedie_dashboard/core/styles/fonts/font_weight_helper.dart';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:login_screen/core/common/widgets/text_app.dart';
+import 'package:login_screen/core/extension/context_extension.dart';
+import 'package:login_screen/core/styles/colors/app_color.dart';
+import 'package:login_screen/core/styles/fonts/font_family_helper.dart';
+import 'package:login_screen/core/styles/fonts/font_weight_helper.dart';
 
 class CustomCreateDropDown extends StatelessWidget {
   const CustomCreateDropDown({
@@ -22,11 +21,11 @@ class CustomCreateDropDown extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 58,
+      height: 50,
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
       decoration: BoxDecoration(
         border: Border.all(
-          color: Colors.white,
+          color: AppColors.primaryColor,
           width: 2,
         ),
         borderRadius: BorderRadius.circular(12),
@@ -46,7 +45,7 @@ class CustomCreateDropDown extends StatelessWidget {
           elevation: 16,
           icon: const Icon(
             Icons.expand_more,
-            color: Colors.white,
+            color: AppColors.primaryColor,
           ),
           onChanged: onChanged,
           value: items.isNotEmpty ? value : null,
@@ -55,7 +54,7 @@ class CustomCreateDropDown extends StatelessWidget {
             text: hintText,
             theme: context.textStyle.copyWith(
               fontSize: 14.sp,
-              color: Colors.white,
+              color: AppColors.primaryColor,
               fontFamily: FontFamilyHelper.poppinsEnglish,
             ),
           ),
